@@ -1,0 +1,94 @@
+* {
+margin: 0;
+padding: 0;
+font-family: 'Lobster', cursive;
+}
+.game{
+background-image: url(https://th.bing.com//id/OIP.LT28qHLOlJBPqLpijpBibAHaE0?pid=ImgDet&w=5174&h=3366&rs=1);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.hide {
+display: none;
+}
+.startScreen {
+width: 100px;
+height: 60px;
+line-height: 20px;
+position: absolute;
+top: 30%;
+left: 50%;
+border-radius: 25px;
+transform: translate(-50%, -50%);
+z-index: 2;
+margin: auto;
+background-image: url(https://th.bing.com/th/id/OIP.Pe3vf3DriF4Zdp6D8KsrHgHaEc?pid=ImgDet&rs=1);
+text-align: center;
+border-bottom: 2px solid rgb(132, 197, 197);
+}
+.score,
+.highScore {
+position: absolute;
+down: 10px;
+left: 20px;
+text-align: center;
+background-color:blue;
+width: 200px;
+color: rgb(59, 40, 40);
+line-height: 40px;
+border-radius: 4px;
+font-size: 1.2em;
+}
+.endScreen{
+width: 250px;
+height: 80px;
+line-height: 20px;
+position: absolute;
+top: 70%;
+left: 50%;
+border-radius: 25px;
+transform: translate(-50%, -50%);
+z-index: 2;
+margin: auto;
+background-image: url(https://th.bing.com/th/id/OIP.CInuydVVgnM1cIN6ZJp8RwHaEK?pid=ImgDet&rs=1);
+text-align: center;
+border-bottom: 2px solid rgb(132, 197, 197);
+}
+.ClickToStart {
+cursor: pointer;
+}
+.gameArea {
+height: 100vh;
+width: 400px;
+margin: auto;
+position: relative;
+background-color: rgb(32, 32, 32);
+overflow: hidden;
+border-left: 2px dashed white;
+border-right: 2px dashed white;
+}
+.car{
+background: url(https://cdn2.iconfinder.com/data/icons/top-view-cars-1/50/37-512.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+height: 75px;
+width: 80px;
+position: absolute;
+top: 520px;
+}
+.Opponents {
+background: url(https://th.bing.com/th/id/OIP.y_BjehWtbVuXFtmgeLzeuwHaPj?pid=ImgDet&rs=1);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+height: 75px;
+width: 50px;
+position: absolute;
+top: 520px;
+}
+.roadLines {
+height: 100px;
+width: 10px;
+background-color: white;
+position: absolute;
+margin-left: 195px;
+}
